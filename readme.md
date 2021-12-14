@@ -58,7 +58,7 @@
   export PATH=/home/<user>/MPI/mpich-install/bin:$PATH
   ```
 
-  or It is better to append this line in .bachrc file present in the home divectory so that this path gets permanently added once we reboot the system
+  or It is better to append this line in .bachrc file present in the home divectory so that this path gets permanently added once we reboot the system:
 
   ```
   cd $HOME
@@ -66,7 +66,7 @@
   nano .bachrc
   ```
 
-- Verifying MPICH2 Installation by
+- Verifying MPICH2 Installation by:
 
   ```
   mpicc --version
@@ -95,7 +95,8 @@
   ```
   mpirun -n 10 ./mpi.out
   ```
-  <b>2- Using the sequential version: </b>
+<b>2- Using the sequential version: </b>
+- Compile the code:
   ```
   mpicc squential.c -o seq.out -lm -w
   ```
