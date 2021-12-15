@@ -15,7 +15,7 @@
   ```
   cd $HOME
 
-  mkdiv MPI
+  mkdir MPI
   ```
 
 - Unpack the tar file inside MPI divectory:
@@ -25,13 +25,13 @@
 - Choose an installation divectory:
 
   ```
-  mkdiv mpich-install
+  mkdir mpich-install
   ```
 
 - Choose a build divectory:
 
   ```
-  mkdiv mpich-build
+  mkdir mpich-build
   ```
 
 - Configure MPICH2, specifying the installation divectory and running the configure script in the source divectory:
