@@ -1,9 +1,12 @@
 # Table of contents
 
+- [Problem Statement](#problem-statement)
 - [Dependencies](#dependencies)
 - [Running the code](#running-the-code)
 - [Demo](#demo)
 
+# Problem Statement
+- [download](https://lms.eng.asu.edu.eg/pluginfile.php/436262/mod_assign/introattachment/0/Assignment3.pdf?forcedownload=1)
 # Dependencies
 
 <b>1- Installing mpich2 (Ubuntu 20.04): </b>
